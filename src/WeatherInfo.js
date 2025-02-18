@@ -30,11 +30,11 @@ export default function WeatherInfo(props) {
           </div>
           <div className="col-6 text-end">
             <div className="d-flex weather-app-temperature-container">
-              <div className="weather-app-icon col-6" id="weather-app-icon">
+              <div className="weather-app-icon col-3" id="weather-app-icon">
                 <WeatherIcon iconUrl={props.data.iconUrl} />
               </div>
               <div
-                className="weather-app-temperature text-end col-6"
+                className="weather-app-temperature col-8"
                 id="weather-app-temperature"
               >
                 <WeatherTemperature celsius={props.data.temperature} />

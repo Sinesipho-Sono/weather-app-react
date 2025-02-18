@@ -22,7 +22,9 @@
   line-height: 36px;
   line-height: 1;
   position: relative;
-  top: -34px;
+  top: -40px;
+  margin-top: 2px;
+  font-size: 20px !important;
 }
 
 .weather-app-details {
@@ -48,8 +50,4 @@
   font-weight: bold;
   line-height: 24px;
   margin-top: 20px;
-}
-.weather-app-unit {
-  margin-top: 5px;
-  font-size: 28px;
 }
