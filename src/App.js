@@ -47,13 +47,18 @@ export default function App() {
         </main>
         <footer>
           This project was coded by
-          <a href="https://github.com/Sinesipho-Sono" target="_blank">
+          <a
+            href="https://github.com/Sinesipho-Sono"
+            target="_blank"
+            rel="noreferrer"
+          >
             Sinesipho Sono
           </a>
           , is
           <a
             href="https://github.com/Sinesipho-Sono/vanilla-weather.app_Shecodes-project"
             target="_blank"
+            rel="noreferrer"
           >
             open-sourced on GitHub
           </a>
@@ -61,6 +66,7 @@ export default function App() {
           <a
             href="https://vanillaweather-shecodesplus-ss.netlify.app/"
             target="_blank"
+            rel="noreferrer"
           >
             hosted on Netlify
           </a>
