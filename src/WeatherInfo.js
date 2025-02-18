@@ -13,7 +13,7 @@ export default function WeatherInfo(props) {
               <h1 className="weather-app-city" id="city">
                 {props.data.city}
               </h1>
-              <p className="weather-app-details">
+              <div className="weather-app-details mt-2">
                 <span id="time">
                   <FormattedDate date={props.data.date} />
                 </span>
@@ -25,7 +25,7 @@ export default function WeatherInfo(props) {
                 <strong id="speed-data">
                   {Math.round(props.data.wind)}km/H
                 </strong>
-              </p>
+              </div>
             </div>
           </div>
           <div className="col-md-6 text-end">
