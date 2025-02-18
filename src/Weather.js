@@ -3,6 +3,7 @@ import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
 import "./Weather.css";
+import { ThreeDots } from "react-loader-spinner";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -30,7 +31,6 @@ export default function Weather(props) {
   }
   function Search() {
     const apiKey = "dfc8b6f54adt4d38bbe0o47364a63d82";
-    let city = "Cape Town";
     const apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}`;
     axios.get(apiUrl).then(handleResponse);
   }
@@ -65,6 +65,19 @@ export default function Weather(props) {
     );
   } else {
     Search();
-    return "Loading...";
+    return (
+      <div className="d-flex align-items-center justify-content-center">
+        <ThreeDots
+          visible={true}
+          height="80"
+          width="80"
+          color="#65c8e0"
+          radius="9"
+          ariaLabel="three-dots-loading"
+          wrapperStyle={{}}
+          wrapperClass=""
+        />
+      </div>
+    );
   }
 }
