@@ -1,3 +1,4 @@
+import React from "react";
 import "./index.css";
 import Weather from "./Weather";
 
@@ -5,10 +6,10 @@ export default function App() {
   return (
     <div className="App">
       <title>My weather App React </title>
-      <h1 class="first-h1">Weather forecast</h1>
-      <div class="weather-app">
+      <h1 className="first-h1">Weather forecast</h1>
+      <div className="weather-app">
         <header>
-          <Weather />
+          <Weather defaultCity="Cape Town" />
         </header>
 
         <footer>

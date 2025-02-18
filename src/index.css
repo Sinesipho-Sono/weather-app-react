@@ -6,14 +6,14 @@ body {
   font-family: "Alegreya", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  background-color: #d7eff7b7;
+  background-color: #d7eff7b7 !important;
 }
 .first-h1 {
   text-align: center;
 }
 .weather-app {
   background-color: #ffffff;
-  max-width: 600px;
+  max-width: 600px !important;
   margin: 30px auto;
   padding: 25px;
   box-shadow: 0 30px 50px rgba(163, 177, 187, 0.863);
@@ -21,13 +21,13 @@ body {
 }
 
 footer {
-  border-top: 1px solid #f1e6ec;
+  border-top: 1px solid #f1e6ec !important;
   padding: 25px 0 0 0;
   text-align: center;
   font-size: 15px;
-  color: #5e5c5d;
+  color: #5e5c5d !important;
 }
 
 a {
-  color: #65c8e0;
+  color: #65c8e0 !important;
 }
