@@ -1,0 +1,28 @@
+.search-input {
+  background-color: #d7eff7b7;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  padding: 12px 30px;
+}
+.search-form {
+  border-bottom: 1px solid #f1e6ec;
+  padding: 0 0 30px;
+}
+.search-submit-button {
+  background-color: #65c8e0;
+  border-color: #f1e6ec;
+  margin-left: 3px;
+  padding: 12px 30px;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+.search-submit-button:hover {
+  background-color: #005e75;
+}
+
+.search-submit-button:active {
+  transform: scale(0.95);
+  background-color: #65c8e0;
+}
