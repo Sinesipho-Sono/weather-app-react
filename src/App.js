@@ -46,7 +46,7 @@ export default function App() {
           <div class="weather-forecast" id="forecast"></div>
         </main>
         <footer>
-          This project was coded by
+          This project was coded by{" "}
           <a
             href="https://github.com/Sinesipho-Sono"
             target="_blank"
@@ -54,17 +54,18 @@ export default function App() {
           >
             Sinesipho Sono
           </a>
-          , is
+          , is{" "}
           <a
-            href="https://github.com/Sinesipho-Sono/vanilla-weather.app_Shecodes-project"
+            href="https://github.com/Sinesipho-Sono/weather-app-react"
             target="_blank"
             rel="noreferrer"
           >
+            {" "}
             open-sourced on GitHub
-          </a>
-          and
+          </a>{" "}
+          and{" "}
           <a
-            href="https://vanillaweather-shecodesplus-ss.netlify.app/"
+            href="https://weather-app-react-inesi.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
