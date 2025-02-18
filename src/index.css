@@ -11,6 +11,9 @@ body {
     rgb(32, 38, 57) 11.4%,
     rgb(63, 76, 119) 70.2%
   );
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  height: 100vh;
 }
 .first-h1 {
   text-align: center;
