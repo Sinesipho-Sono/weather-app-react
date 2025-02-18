@@ -8,6 +8,7 @@
   margin: 0;
   font-size: 40px;
   line-height: 48px;
+  font-weight: 900;
 }
 .temperature {
   font-size: 80px !important;
