@@ -2,6 +2,7 @@
   display: flex;
   justify-content: left !important;
   padding: 20px 0;
+  border-bottom: 1px solid #f1e6ec;
 }
 
 .weather-app-city {
@@ -36,7 +37,7 @@
 }
 
 .weather-app-details strong {
-  color: #65c8e0 !important;
+  color: #43899a !important;
 }
 
 .weather-app-temperature-container {
