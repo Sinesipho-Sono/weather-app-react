@@ -2,6 +2,7 @@
   font-family: sans-serif;
   text-align: center;
 }
+
 body {
   font-family: "Alegreya", serif;
   font-optical-sizing: auto;
@@ -13,7 +14,7 @@ body {
   );
   background-repeat: no-repeat;
   background-size: cover !important;
-  height: 100vh;
+  min-height: 100vh !important;
 }
 .first-h1 {
   text-align: center;
@@ -22,6 +23,7 @@ body {
 }
 .weather-app {
   background-color: #ffffffd8;
+  width: 90% !important;
   max-width: 800px !important;
   margin: 30px auto;
   padding: 25px;
@@ -39,4 +41,11 @@ footer {
 
 a {
   color: #3f8da0 !important;
+}
+
+@media (max-width: 578px) {
+  .weather-app {
+    margin: 0;
+    width: 100% !important;
+  }
 }
