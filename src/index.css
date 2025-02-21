@@ -12,9 +12,11 @@ body {
     rgb(32, 38, 57) 11.4%,
     rgb(63, 76, 119) 70.2%
   );
-  background-repeat: no-repeat;
+
   background-size: cover !important;
   min-height: 100vh !important;
+  padding: 0;
+  overflow-x: hidden;
 }
 .first-h1 {
   text-align: center;
