@@ -1,3 +1,5 @@
+# This app allows users to look up the weather and forecast in specific cities around the world. The app provides users with their current date and time, the current temperature, the wind speed, humidity and weather description along with the relevant weather icon. Users can see up to 5 days of the weather forecast which displays the day, weather icon, minimum and maximum temperature.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
